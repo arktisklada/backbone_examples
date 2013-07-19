@@ -1,0 +1,17 @@
+{
+	"folders":
+	[
+		{
+			"path": "frontend"
+		},
+		{
+			"path": "frontend-folders"
+		},
+		{
+			"path": "ajax"
+		},
+		{
+			"path": "comments"
+		}
+	]
+}
