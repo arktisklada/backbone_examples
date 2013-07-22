@@ -15,5 +15,6 @@
 //= require underscore
 //= require handlebars
 //= require backbone
+//= require backbone-forms.min
 //= require backbone/app
 //= require_tree .

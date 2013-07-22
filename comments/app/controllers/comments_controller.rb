@@ -2,7 +2,7 @@ class CommentsController < ApplicationController
   # GET /comments
   # GET /comments.json
   def index
-    @comments = Comment.all
+    @comments = Comment.select([:post_id, :content, :created_at]).where(post_id: params[:post_id])
 
     respond_to do |format|
       format.html # index.html.erb
@@ -40,12 +40,13 @@ class CommentsController < ApplicationController
   # POST /comments
   # POST /comments.json
   def create
-    @comment = Comment.new(params[:comment])
+#    @comment = Comment.new(params[:comment])
+    @comment = Comment.new(post_id: params[:post_id], content: params[:content])
 
     respond_to do |format|
       if @comment.save
         format.html { redirect_to @comment, notice: 'Comment was successfully created.' }
-        format.json { render json: @comment, status: :created, location: @comment }
+        format.json { render json: {comment: @comment, slug: @comment.post.slug}, status: :created }
       else
         format.html { render action: "new" }
         format.json { render json: @comment.errors, status: :unprocessable_entity }

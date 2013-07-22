@@ -25,7 +25,8 @@ app.AppView = Backbone.View.extend({
   },
 
   render: function() {
-    this.collection.each(function(model) {
+//    this.collection.each( // can use each or map
+    this.collection.map(function(model) {
       this.renderItem(model);
     }, this);
     return this;
