@@ -11,6 +11,7 @@ app.Post = Backbone.Model.extend({
     content: ''
   },
 
+  // This is the base url of an individual post, RESTful (/posts/id)
   urlRoot: '/posts'
 
 });

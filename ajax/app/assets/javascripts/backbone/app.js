@@ -1,3 +1,5 @@
+// control the include order of our backbone app
+
 //= require_tree ./models
 //= require_tree ./collections
 //= require_tree ./views
@@ -19,6 +21,9 @@ $(function() {
 
   app.router = new app.Router();
 
+  // Modernizr is a useful library to determine the more modern/advanced capabilities of our browser
+  // Here, we use Modernizr to determine if our browser supports history push state
+  // Notice the difference in the browser URL bar as you navigate through the app (old browsers need to use a #)
   Backbone.history.start({pushState: Modernizr.history});
 
   // Shows how you can capture the event when a URL change occurs

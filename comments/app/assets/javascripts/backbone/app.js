@@ -19,6 +19,7 @@ $(function() {
     commentNew: '<h1 class="title">New Comment</h1>'
   }
 
+  // We need a way to format the date in our blog templates.
   Handlebars.registerHelper('dateFormat', function(context, block) {
     var date = new Date(context);
     return date.getMonth() + "/" + date.getDate() + "/" + date.getFullYear();

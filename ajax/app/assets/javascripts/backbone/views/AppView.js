@@ -14,7 +14,9 @@ app.AppView = Backbone.View.extend({
 
     // this.collection.bind('add', this.renderItem);  // compare the usage of this line with the one below (this scoping: this.list is lost in renderItem without passing in the function)
     this.collection.bind('add', this.renderItem, this);
+    // If we already have a collection, don't get a new one
     if(this.collection.length == 0) {
+      // perform the "fetch" action on the collection to retrieve a list of posts from it's url
       this.collection.fetch();
     }
   },
@@ -25,9 +27,10 @@ app.AppView = Backbone.View.extend({
   },
 
   render: function() {
+    // iterate through the collection and render a PostListView for each item
     this.collection.each(function(model) {
       this.renderItem(model);
-    }, this);
+    }, this); // pass "this" so we can call this.renderItem inside the iteration
     return this;
   }
 

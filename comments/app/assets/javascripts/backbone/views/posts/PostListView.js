@@ -4,7 +4,7 @@ app.PostListView = Backbone.View.extend({
   tagName: 'li',
 
   // Creating a click event on a title to show the contents
-  events:{
+  events: {
     'change': this.render,
     'click': 'view'
   },

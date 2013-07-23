@@ -3,7 +3,7 @@ var app = app || {}
 app.CommentListView = Backbone.View.extend({
   tagName: 'li',
 
-  // Creating a click event on a title to show the contents
+  // Creating a change event on the model to show when the model data changes (ajax'd in)
   events:{
     'change': this.render
   },
