@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"tet-",
+				"text-decoration"
+			],
+			[
+				"Comment",
+				"commentNewView"
+			],
+			[
 				"event",
 				"event"
 			],
@@ -15,38 +23,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "frontend-backbonefiles/index.html",
-			"settings":
-			{
-				"buffer_size": 712,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "integrated/app/views/layouts/application.html.erb",
-			"settings":
-			{
-				"buffer_size": 269,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "frontend-backbonefiles/backbone/app.js",
-			"settings":
-			{
-				"buffer_size": 733,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "integrated/app/views/home/index.html.erb",
-			"settings":
-			{
-				"buffer_size": 107,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -72,15 +48,58 @@
 	},
 	"file_history":
 	[
+		"/Users/clayton/projects/ga/exercises/backbone/blog/comments/app/assets/stylesheets/styles.css",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/comments/app/assets/javascripts/backbone/routers/router.js",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/comments/app/assets/javascripts/backbone/views/posts/PostView.js",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/comments/app/assets/javascripts/backbone/views/posts/CommentNewView.js",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/comments/app/assets/javascripts/backbone/app.js",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/comments/app/controllers/posts_controller.rb",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/comments/app/controllers/comments_controller.rb",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/comments/app/assets/javascripts/backbone/views/posts/CommentListView.js",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/comments/app/assets/javascripts/backbone/collections/Comments.js",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/comments/app/assets/javascripts/backbone/models/Post.js",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/comments/app/assets/javascripts/backbone/models/Comment.js",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/comments/app/models/comment.rb",
+		"/Users/clayton/projects/ga/exercises/jstodoapp/todo.js",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/comments/app/assets/javascripts/backbone-forms.min.js",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/comments/app/assets/javascripts/application.js",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/comments/app/assets/javascripts/backbone/views/AppView.js",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/comments/app/assets/javascripts/backbone/views/posts/PostListView.js",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/comments/app/assets/javascripts/backbone/collections/Posts.js",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/comments/config/routes.rb",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/comments/app/assets/stylesheets/home.css",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/comments/app/assets/stylesheets/application.css",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/comments/db/seeds.rb",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/comments/app/models/post.rb",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/integrated/app/controllers/posts_controller.rb",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/integrated/app/assets/javascripts/backbone/app.js",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/integrated/app/assets/javascripts/backbone/routers/router.js",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/integrated/app/assets/javascripts/backbone/views/posts/PostView.js",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/integrated/app/assets/javascripts/backbone/views/AppView.js",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/integrated/app/assets/javascripts/backbone/models/Post.js",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/integrated/app/assets/javascripts/backbone/collections/PostList.js",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/integrated/app/assets/javascripts/backbone/views/posts/PostListView.js",
+		"/Users/clayton/Downloads/modernizr.custom.47642.js",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/integrated/app/views/home/index.html.erb",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/integrated/app/views/home/view.html.erb",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/integrated/app/assets/javascripts/application.js",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/integrated/app/controllers/home_controller.rb",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/frontend-backbonefiles/index.html",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/integrated/app/views/layouts/application.html.erb",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/integrated/config/routes.rb",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/integrated/Gemfile",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/integrated/db/seeds.rb",
+		"/Users/clayton/projects/ga/exercises/JS Prototype Console Exercise",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/integrated/app/views/home/_post.html.erb",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/frontend-backbonefiles/backbone/routers/router.js",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/integrated/app/views/home/_post_list.html.erb",
+		"/Users/clayton/projects/ga/exercises/backbone/blog/frontend-backbonefiles/backbone/app.js",
 		"/Users/clayton/Desktop/ditrance.m3u",
 		"/Users/clayton/projects/ga/exercises/backbone/blog/frontend-backbonefiles/backbone/views/posts/PostListView.js",
 		"/Users/clayton/projects/ga/exercises/backbone/blog/frontend-backbonefiles/backbone/views/posts/PostView.js",
 		"/Users/clayton/projects/ga/exercises/backbone/blog/frontend-backbonefiles/backbone/models/Post.js",
 		"/Users/clayton/projects/ga/exercises/backbone/blog/frontend-backbonefiles/backbone/collections/PostList.js",
 		"/Users/clayton/projects/ga/exercises/backbone/blog/frontend-backbonefiles/backbone/views/AppView.js",
-		"/Users/clayton/projects/ga/exercises/backbone/blog/frontend-backbonefiles/backbone/routers/router.js",
-		"/Users/clayton/projects/ga/exercises/backbone/blog/frontend-backbonefiles/index.html",
-		"/Users/clayton/projects/ga/exercises/backbone/blog/frontend-backbonefiles/backbone/app.js",
 		"/Users/clayton/projects/ga/exercises/backbone/blog/frontend-backbonefiles/styles.css",
 		"/Users/clayton/projects/ga/exercises/backbone/blog/frontend/index.html",
 		"/Users/clayton/projects/ga/exercises/backbone/blog/frontend/styles.css",
@@ -156,13 +175,7 @@
 		"/Users/clayton/projects/ga/exercises/jstemplates/handlebars.js",
 		"/Users/clayton/projects/ga/exercises/jstemplates/styles.css",
 		"/Users/clayton/projects/ga/exercises/jstemplates/template.html",
-		"/Users/clayton/Desktop/com.adobe.acrobat.pdfviewer.plist",
-		"/Users/clayton/projects/ga/exercises/jstodoapp/todo.js",
-		"/Users/clayton/projects/ga/exercises/jstodoapp/js this exercise",
-		"/Users/clayton/projects/ga/exercises/jstodoapp/index.html",
-		"/Users/clayton/projects/ga/exercises/jstodoapp/src/todo.js",
-		"/Users/clayton/projects/ga/exercises/jstodoapp/src/Song.js",
-		"/Users/clayton/projects/ga/exercises/jstodoapp/src/Player.js"
+		"/Users/clayton/Desktop/com.adobe.acrobat.pdfviewer.plist"
 	],
 	"find":
 	{
@@ -180,6 +193,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\n  ",
+			"add",
+			"content",
+			"font",
+			" \n",
+			"Posts",
+			"postlist",
+			"tests",
+			"history",
+			"());\n",
+			"\");\n",
+			":json => ",
 			"navigate",
 			"doff",
 			"	",
@@ -234,117 +259,8 @@
 	"groups":
 	[
 		{
-			"selected": 3,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "frontend-backbonefiles/index.html",
-					"settings":
-					{
-						"buffer_size": 712,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								135,
-								162
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "integrated/app/views/layouts/application.html.erb",
-					"settings":
-					{
-						"buffer_size": 269,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								205,
-								205
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "frontend-backbonefiles/backbone/app.js",
-					"settings":
-					{
-						"buffer_size": 733,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								37,
-								37
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "integrated/app/views/home/index.html.erb",
-					"settings":
-					{
-						"buffer_size": 107,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								107,
-								107
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -408,6 +324,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 238.0,
+	"side_bar_width": 240.0,
 	"status_bar_visible": true
 }
